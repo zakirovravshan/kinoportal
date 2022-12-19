@@ -17,7 +17,7 @@ export default function Carousel() {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 1500, 
+        speed: 3000, 
     }
 
     const [movies, setMovie] = useState([])
