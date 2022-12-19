@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import styled from "styled-components"
 
-export const CarouselWrapper = styled(Link)`
+export const CarouselWrapper = styled.div`
 
 width:1100px;
 height: 420px;
