@@ -28,6 +28,17 @@ export const apis = {
             "api_key": API_KEY,
         },
     }),
+
+    getCredits: (id) => axios.get(baseURL + "movie/" + id + '/credits', {
+        params: {
+            "api_key": API_KEY,
+        },
+    }),
+    getVideo: (id) => axios.get(baseURL + "movie/" + id + '/videos', {
+        params: {
+            "api_key": API_KEY,
+        },
+    }),
    
 
 }

@@ -3,6 +3,7 @@ import { apis } from '../../API/API';
 import { StyledPopularTitle } from '../../pages/Popular/popular.styles';
 import { Card } from '../Card/card.components';
 import { Row } from '../Header/header.styles';
+import { Loader } from '../Loader/loader.component';
 
 export const Latest = () => {
 
@@ -33,7 +34,7 @@ export const Latest = () => {
               <Card key={movie.title} obj={movie}/>
              ))
           }
-        </Row>) : ""
+        </Row>) : <Loader/>
       }
     </div>
   )

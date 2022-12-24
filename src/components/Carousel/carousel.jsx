@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react'
 import { Card } from '../Card/card.components'
 import { CardCarousel } from '../CarouselCard/carousel.card'
 import { CarouselWrapper } from '../CarouselCard/carousel-card.styles'
+import { Loader } from '../Loader/loader.component'
 
 export default function Carousel() {
 
@@ -37,11 +38,11 @@ export default function Carousel() {
         <CarouselWrapper  className='content'>
             
             <Slider {...sliderSettings}>
-        {
-                    movies.map((movie) => (
+        {       
+                   movies?( movies.map((movie) => (
 
-                        <CardCarousel key={movie.title} {...movie} />
-                    ))
+                    <CardCarousel key={movie.title} {...movie} />
+                ))) : <Loader/>
         }
         </Slider>
         </CarouselWrapper>

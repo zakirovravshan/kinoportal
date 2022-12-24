@@ -3,6 +3,7 @@ import { apis } from '../../API/API';
 import { Card } from '../../components/Card/card.components';
 import Carousel from '../../components/Carousel/carousel';
 import { Row } from '../../components/Header/header.styles';
+import { Loader } from '../../components/Loader/loader.component';
 import { StyledPopularTitle } from '../../pages/Popular/popular.styles';
 
 
@@ -36,7 +37,7 @@ export const Home = () => {
               <Card key={movie.title} obj={movie}/>
              ))
           }
-        </Row>) : ""
+        </Row>) : <Loader/>
       }
     </div>
   )

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 export const SingleCardWrapper = styled.div`
 background-color:#1c263d;
 margin:0 auto;
@@ -7,8 +8,10 @@ width:100%;
 padding:30px 40px;
 border-radius: 20px;
 display:flex;
-margin-bottom:80px;
+align-items:center;
+margin-bottom:30px;
 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+margin-bottom:40px;
 
 
 
@@ -40,8 +43,10 @@ color: #fff;
 `
 
 export const SingleCardText = styled.p`
+display:flex;
 font-weight: 300;
 color:#BAD3EC;
+margin-left:8px;
 
 
 `
@@ -53,3 +58,11 @@ color: #fff;
 font-weight:700;
 
 `
+
+export const SingleVideo = styled.iframe`
+
+border-radius:18px;
+border: 0px;
+
+`
+
