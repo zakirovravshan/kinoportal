@@ -8,6 +8,8 @@ import Carousel from "./components/Carousel/carousel";
 import { Single } from "./pages/Single/single.component";
 import { SingleCard } from "./components/SingleCard/single-card.component";
 import { Credits } from "./components/Credits/credit.component";
+import { Actor } from "./pages/Actor/actor.component";
+import { ActorCard } from "./components/ActorCard/actor-card.component";
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
         <Route path="/topfilms"  element={<Latest/>}/>
         <Route path="/movie/:id"  element={<Single/>}/>
         <Route path="/movie/:id"  element={<Credits/>}/>
+        <Route path="/person/:id"  element={<ActorCard/>}/>
       </Routes>
       
     </div>

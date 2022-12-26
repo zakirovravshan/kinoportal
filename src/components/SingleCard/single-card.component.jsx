@@ -6,6 +6,7 @@ import { Row } from '../Header/header.styles'
 import stars from "../../assets/images/star.png"
 import { Credits } from '../Credits/credit.component'
 import { Trailer } from '../Trailer/trailer.component'
+import { Recomend } from '../Recomendations/recomend.component'
 
 export const SingleCard = ({ title, poster_path, budget, vote_average, tagline, production_countries, release_date, overview, genres, production_companies
 }) => {
@@ -36,6 +37,9 @@ export const SingleCard = ({ title, poster_path, budget, vote_average, tagline, 
         <Trailer/>
         <Credits/>
       </SingleCardWrapper>
+      
+        <Recomend/>
+      
 
     </Row>
   )

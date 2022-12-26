@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <Row>
       <StyledHeader>
-      <Link to="/"><img src={logo} alt="movie logo" width={90} height={60} /></Link>
+      <Link to="/"><img src={logo} alt="movie logo" width={70} height={60} /></Link>
       <nav>
         <StyledNavList>
           <StyledNavItem>

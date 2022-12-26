@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
- 
+
 const GlobalStyle = createGlobalStyle`
     html {
         height: 100%;
@@ -16,7 +16,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color:#111;
+        background: rgb(17,17,17);
+background: linear-gradient(90deg, rgba(17,17,17,1) 60%, rgba(255,0,0,1) 100%);
         font-family: 'Nunito Sans', sans-serif;
       }
       
@@ -31,6 +32,6 @@ const GlobalStyle = createGlobalStyle`
         object-fit: cover;
       }
 `;
- 
+
 export default GlobalStyle;
 

@@ -2,7 +2,13 @@ import styled from "styled-components"
 
 
 export const SingleCardWrapper = styled.div`
-background-color:#1c263d;
+
+/* From https://css.glass */
+background: rgba(0, 100, 177, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16.3px);
+-webkit-backdrop-filter: blur(16.3px);
 margin:0 auto;
 width:100%;
 padding:30px 40px;

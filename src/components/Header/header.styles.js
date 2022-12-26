@@ -7,7 +7,7 @@ export const Row = styled.div`
     max-width:1280px;
     padding:0 20px;
     margin: 0 auto;
-    background-color: #111 ;
+    background-color: transparent ;
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -57,7 +57,7 @@ export const StyledNavLink = styled(NavLink)`
 export const StyledSearch = styled.input`
     width:250px;
     padding:15px 10px 0px 5px;
-    background-color:#111;
+    background-color:transparent;
     outline:none;
     border: 1px solid transparent;
     border-bottom:3px solid #0dbbeb;
