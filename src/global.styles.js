@@ -16,8 +16,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         margin: 0;
         padding: 0;
-        background: rgb(17,17,17);
-background: linear-gradient(90deg, rgba(17,17,17,1) 60%, rgba(255,0,0,1) 100%);
+        background: rgb(106,6,6);
+background: linear-gradient(90deg, rgba(106,6,6,1) 2%, rgba(2,46,102,1) 92%);
         font-family: 'Nunito Sans', sans-serif;
       }
       

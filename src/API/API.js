@@ -39,7 +39,7 @@ export const apis = {
             "api_key": API_KEY,
         },
     }),
-    getActors: (id) => axios.get(baseURL + "person/" + id  , {
+    getActors: (id) => axios.get(baseURL + "person/" + id  ,{
         params: {
             "api_key": API_KEY,
         },

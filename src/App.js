@@ -8,7 +8,6 @@ import Carousel from "./components/Carousel/carousel";
 import { Single } from "./pages/Single/single.component";
 import { SingleCard } from "./components/SingleCard/single-card.component";
 import { Credits } from "./components/Credits/credit.component";
-import { Actor } from "./pages/Actor/actor.component";
 import { ActorCard } from "./components/ActorCard/actor-card.component";
 
 

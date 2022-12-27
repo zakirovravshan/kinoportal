@@ -17,8 +17,8 @@ export default function Carousel() {
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
-        speed: 3000, 
+        autoplaySpeed: 1500,
+        speed: 2000, 
     }
 
     const [movies, setMovie] = useState([])

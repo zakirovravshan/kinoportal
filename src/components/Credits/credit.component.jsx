@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { apis, baseImgURL } from '../../API/API'
-import { Actor } from '../../pages/Actor/actor.component'
 import { SingleCardContent, SingleCardText } from '../../pages/Single/Single.styles'
 import { Loader } from '../Loader/loader.component'
 import { CreditsImg, CreditsItem, CreditsList, CreditsTitle, CreditsWrapper } from './credit.styles'

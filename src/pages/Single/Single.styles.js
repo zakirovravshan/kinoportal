@@ -26,7 +26,8 @@ margin-bottom:40px;
 `
 
 export const SingleCardContent = styled.div`
-
+width:100%;
+max-width: 600px;
 margin-left:60px;
 
 `
